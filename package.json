@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/Olbili/Event-Booster-project",
+  "homepage": "https://Olbili.github.io/Event-Booster-project",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Event-Booster-project/"
