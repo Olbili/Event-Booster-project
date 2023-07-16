@@ -1,0 +1,19 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 1050px;
+}
+body li {
+  list-style: none;
+}
+
+ul {
+  width: 1000px;
+  display: flex;
+  gap: 30px;
+}
+ul li {
+  width: 180px;
+}
