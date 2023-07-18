@@ -1,10 +1,52 @@
 body {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 1050px;
     li {
         list-style: none;
     }
-    
+    h1 {
+        color: #DC56C5;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    h2 {
+        color: #DC56C5;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    h3 {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    p {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        .GoIT {
+            color: #939393;
+            .heart {
+                
+            }
+        }
+    }
+
 }
