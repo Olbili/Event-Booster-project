@@ -13,6 +13,25 @@ section{
         li {
             justify-content: center;
             width: 180px;
-        }
+        };
+
+        .before{
+            position: relative;
+        };
+
+        .before::before{
+            content: "";
+            z-index: -1;
+            position: absolute;
+            width: 153px;
+            height: 143px;
+            top: -10px;
+            right: -10px;
+            border: solid 1px;
+            border-color: rgba(220, 86, 197, 0.3);
+            // border-radius: 50px, 0px, 50px, 0px;    
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        };
     }
 }
