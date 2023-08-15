@@ -23,12 +23,12 @@ section.hero-wrapper {
         backdrop-filter: blur(15px);
         
     }
-    .search {
+    .poshuk {
         display: flex;
         justify-content: space-between;
-        .inputt{
+        .input{
             display: flex;
-            .search-inputs {
+            input {
                 padding: 10px 0 10px 30px;
                 width: 200px;
                 height: 40px;
@@ -38,11 +38,11 @@ section.hero-wrapper {
                 backdrop-filter: blur(10px);
                 border: none;
             }
-            .search-inputs:focus {
+            input:focus {
                 outline: none;
                 padding-left: 20px;
             }
-            .searchs {
+            .search {
                 padding: 10px;
                 caret-color: #939393;
                 width: 70px;
