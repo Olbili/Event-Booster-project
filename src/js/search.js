@@ -19,6 +19,9 @@ function textContent (e) {
     refs.cards.innerHTML=" ";
     fetchOn(country, name);
     const value = e.target.value.trim();
+
+
+   
     // console.log('value :>> ', value);
     // console.log(refs.country.value);
 }

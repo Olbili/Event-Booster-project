@@ -4,6 +4,19 @@ body {
     background-size: 100%;
     margin: 0;
     padding: 0;
+
+    @media (max-width: 768px) {
+        background-image: url(../images/bg_tab.png);
+        background-repeat: no-repeat;
+        background-color: #0E0E0E; 
+    };
+
+    @media (max-width: 440px) {
+        background-image: url(../images/pic_mob.png);
+        background-repeat: no-repeat;
+        background-color: #0E0E0E;
+    };
+
     li {
         list-style: none;
     }
@@ -15,6 +28,14 @@ body {
         font-style: normal;
         font-weight: 900;
         line-height: normal;
+
+        @media (max-width: 768px) {
+            font-size: 35px;
+        };
+
+        @media (max-width: 440px) {
+            font-size: 25px;
+        };
     }
     h2 {
         color: #DC56C5;
@@ -45,8 +66,8 @@ body {
             color: #939393;
             .heart {
                 color: red;
-            }
-        }
-    }
+            };
+        };
+    };
 
-}
+};
