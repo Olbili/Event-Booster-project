@@ -1,5 +1,3 @@
-// import { paginationMarkup } from "./pagination";
-
 const refs = {
     ul: document.querySelector(".cards"),
 };
@@ -21,7 +19,6 @@ function createHTML (eventData) {
 </li>`;
 refs.ul.insertAdjacentHTML("beforeend", markup);
   });
-  paginationMarkup(pag.page.totalPages, pag.page.number +1)
 };
 
 export{createHTML};
