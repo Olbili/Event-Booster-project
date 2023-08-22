@@ -9,9 +9,22 @@ section{
         flex-wrap: wrap;
         padding: 0;
         margin: 0;
+
+        @media (max-width: 768px) {
+            gap: 27px;
+        };
+
+        @media (max-width: 440px) {
+            gap: 15px;
+        };
+
         .card {
             justify-content: center;
             width: 180px;
+
+            // @media (max-width: 440px) {
+            //     width: 128px;
+            // };
 
             .image{
                 width: 180px;
