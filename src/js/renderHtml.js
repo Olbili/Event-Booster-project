@@ -1,4 +1,4 @@
-import { paginationMarkup } from "./pagination";
+// import { paginationMarkup } from "./pagination";
 
 const refs = {
     ul: document.querySelector(".cards"),
