@@ -14,6 +14,28 @@ section.hero-wrapper {
         position: absolute;
         left: 40px;
         z-index: 1;
+        .logoo{ 
+            position: absolute;
+            width: 135px; 
+            height: 65px; 
+            fill: white;
+
+            @media (max-width: 768px) {
+                top: -30px;
+                left: -10px;
+                width: 110px;
+                height: 130px;
+                
+            };
+    
+            @media (max-width: 440px) {
+                top: -15px;
+                left: -20px;
+                width: 80px;
+                height: 50px;
+              
+            };
+        }
     }
     .logo::before {
         z-index: -1;
@@ -93,7 +115,7 @@ section.hero-wrapper {
                 background: rgba(255, 255, 255, 0.20);
                 backdrop-filter: blur(10px);
                 border: none;
-            }
-        }
-    }
-}
+            };
+        };
+    };
+};

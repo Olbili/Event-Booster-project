@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+   .pagination{
+   margin: 0 auto;
+    .pageCount{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding-top: 4px;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        text-decoration: none
+    };
+    .active{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding-top: 4px;
+        color: rgba(220, 86, 197, 1);
+        text-align: center;
+         border: 1px solid #DC56C5;
+        border-radius: 10px 0px;
+        text-decoration: none;
+    };
+    span {
+        color: rgba(255, 255, 255, 1);
+    };
+    }; 
+};
+
+
+  
