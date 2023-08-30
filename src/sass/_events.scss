@@ -36,8 +36,15 @@ section{
                 .name{
                     color: #DC56C5;
                     font-size: 16px;
-                }
-            }
+                    font-weight: 700;
+
+                };
+            };
+
+            .place{
+                font-size: 14px;
+                font-weight: 600;
+            };
         };
 
         .before{
@@ -60,15 +67,7 @@ section{
         };
     };
 };
-.click{
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    color: rgba(220, 86, 197, 1);
-    border: none;
+
+  
     
-    &:hover{
-    border: 1px solid #DC56C5;
-    border-radius: 10px 0px;
-    }
-};
+ 
